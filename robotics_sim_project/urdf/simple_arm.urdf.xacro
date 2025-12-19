@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="simple_arm_xacro">
+  
+  <!-- Include all properties and macros -->
+  <xacro:include filename="$(find robotics_sim_project)/urdf/common/properties.xacro"/>
+  <xacro:include filename="$(find robotics_sim_project)/urdf/common/inertias.xacro"/>
+  <xacro:include filename="$(find robotics_sim_project)/urdf/common/materials.xacro"/>
+  <xacro:include filename="$(find robotics_sim_project)/urdf/common/gazebo_materials.xacro"/>
+  
+  <!-- Base Link (Now using properties and macros) -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="${base_width} ${base_length} ${base_height}"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="${base_width} ${base_length} ${base_height}"/>
+      </geometry>
+    </collision>
+    <xacro:box_inertia m="${base_mass}" 
+                       x="${base_width}" 
+                       y="${base_length}" 
+                       z="${base_height}"/>
+  </link>
+  
+  <!-- Arm Link -->
+  <link name="arm_link">
+    <visual>
+      <origin xyz="${arm_length/2} 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="${arm_length} ${arm_width} ${arm_height}"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+    <collision>
+      <origin xyz="${arm_length/2} 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="${arm_length} ${arm_width} ${arm_height}"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="${arm_length/2} 0 0" rpy="0 0 0"/>
+      <mass value="${arm_mass}"/>
+      <inertia ixx="${arm_mass*(arm_width*arm_width+arm_height*arm_height)/12}" 
+               ixy="0" ixz="0"
+               iyy="${arm_mass*(arm_length*arm_length+arm_height*arm_height)/12}" 
+               iyz="0"
+               izz="${arm_mass*(arm_length*arm_length+arm_width*arm_width)/12}"/>
+    </inertial>
+  </link>
+  
+  <!-- Joint -->
+  <joint name="base_to_arm" type="revolute">
+    <parent link="base_link"/>
+    <child link="arm_link"/>
+    <origin xyz="0 0 ${base_height/2}" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="${-pi/2}" upper="${pi/2}" effort="10.0" velocity="1.0"/>
+  </joint>
+  
+  <!-- Apply Gazebo Materials -->
+  <xacro:gazebo_material link_name="base_link" material_name="Blue"/>
+  <xacro:gazebo_material link_name="arm_link" material_name="Red"/>
+  
+</robot>
