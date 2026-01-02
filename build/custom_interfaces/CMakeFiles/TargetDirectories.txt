@@ -1,0 +1,9 @@
+/home/abdelghafor/ros2_ws/src/build/custom_interfaces/CMakeFiles/uninstall.dir
+/home/abdelghafor/ros2_ws/src/build/custom_interfaces/CMakeFiles/custom_interfaces_uninstall.dir
+/home/abdelghafor/ros2_ws/src/build/custom_interfaces/CMakeFiles/test.dir
+/home/abdelghafor/ros2_ws/src/build/custom_interfaces/CMakeFiles/edit_cache.dir
+/home/abdelghafor/ros2_ws/src/build/custom_interfaces/CMakeFiles/rebuild_cache.dir
+/home/abdelghafor/ros2_ws/src/build/custom_interfaces/CMakeFiles/list_install_components.dir
+/home/abdelghafor/ros2_ws/src/build/custom_interfaces/CMakeFiles/install.dir
+/home/abdelghafor/ros2_ws/src/build/custom_interfaces/CMakeFiles/install/local.dir
+/home/abdelghafor/ros2_ws/src/build/custom_interfaces/CMakeFiles/install/strip.dir

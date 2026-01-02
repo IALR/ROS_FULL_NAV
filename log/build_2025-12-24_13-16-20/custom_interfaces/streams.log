@@ -1,0 +1,19 @@
+[0.059s] Invoking command in '/home/abdelghafor/ros2_ws/src/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelghafor/ros2_ws/src/install/simple_params:/home/abdelghafor/ros2_ws/src/install/robot_actions:/home/abdelghafor/ros2_ws/src/install/my_first_package:/home/abdelghafor/ros2_ws/install/simple_params:/home/abdelghafor/ros2_ws/install/robot_actions:/home/abdelghafor/ros2_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/abdelghafor/ros2_ws/src/build/custom_interfaces -- -j16 -l16
+[0.572s] Invoked command in '/home/abdelghafor/ros2_ws/src/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelghafor/ros2_ws/src/install/simple_params:/home/abdelghafor/ros2_ws/src/install/robot_actions:/home/abdelghafor/ros2_ws/src/install/my_first_package:/home/abdelghafor/ros2_ws/install/simple_params:/home/abdelghafor/ros2_ws/install/robot_actions:/home/abdelghafor/ros2_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/abdelghafor/ros2_ws/src/build/custom_interfaces -- -j16 -l16
+[0.586s] Invoking command in '/home/abdelghafor/ros2_ws/src/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelghafor/ros2_ws/src/install/simple_params:/home/abdelghafor/ros2_ws/src/install/robot_actions:/home/abdelghafor/ros2_ws/src/install/my_first_package:/home/abdelghafor/ros2_ws/install/simple_params:/home/abdelghafor/ros2_ws/install/robot_actions:/home/abdelghafor/ros2_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/abdelghafor/ros2_ws/src/build/custom_interfaces
+[0.596s] -- Install configuration: ""
+[0.597s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[0.597s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[0.597s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[0.599s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[0.599s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[0.599s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[0.600s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[0.600s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[0.600s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[0.600s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[0.600s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/package.dsv
+[0.600s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[0.600s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[0.601s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[0.601s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/package.xml

@@ -1,0 +1,41 @@
+[0.584s] Invoking command in '/home/abdelghafor/ros2_ws/src/robot_actions': AMENT_PREFIX_PATH=/home/abdelghafor/ros2_ws/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdelghafor/ros2_ws/src/install/custom_interfaces:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/abdelghafor/ros2_ws/src/build/robot_actions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdelghafor/ros2_ws/src/install/robot_actions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_actions build --build-base /home/abdelghafor/ros2_ws/src/build/robot_actions/build install --record /home/abdelghafor/ros2_ws/src/build/robot_actions/install.log --single-version-externally-managed install_data
+[0.812s] running egg_info
+[0.812s] creating ../build/robot_actions/robot_actions.egg-info
+[0.812s] writing ../build/robot_actions/robot_actions.egg-info/PKG-INFO
+[0.813s] writing dependency_links to ../build/robot_actions/robot_actions.egg-info/dependency_links.txt
+[0.813s] writing entry points to ../build/robot_actions/robot_actions.egg-info/entry_points.txt
+[0.813s] writing requirements to ../build/robot_actions/robot_actions.egg-info/requires.txt
+[0.813s] writing top-level names to ../build/robot_actions/robot_actions.egg-info/top_level.txt
+[0.814s] writing manifest file '../build/robot_actions/robot_actions.egg-info/SOURCES.txt'
+[0.815s] reading manifest file '../build/robot_actions/robot_actions.egg-info/SOURCES.txt'
+[0.815s] writing manifest file '../build/robot_actions/robot_actions.egg-info/SOURCES.txt'
+[0.816s] running build
+[0.816s] running build_py
+[0.816s] creating /home/abdelghafor/ros2_ws/src/build/robot_actions/build
+[0.816s] creating /home/abdelghafor/ros2_ws/src/build/robot_actions/build/lib
+[0.816s] creating /home/abdelghafor/ros2_ws/src/build/robot_actions/build/lib/robot_actions
+[0.816s] copying robot_actions/__init__.py -> /home/abdelghafor/ros2_ws/src/build/robot_actions/build/lib/robot_actions
+[0.817s] copying robot_actions/battery_charger.py -> /home/abdelghafor/ros2_ws/src/build/robot_actions/build/lib/robot_actions
+[0.817s] copying robot_actions/battery_client.py -> /home/abdelghafor/ros2_ws/src/build/robot_actions/build/lib/robot_actions
+[0.817s] running install
+[0.817s] running install_lib
+[0.817s] creating /home/abdelghafor/ros2_ws/src/install/robot_actions/lib/python3.10/site-packages/robot_actions
+[0.818s] copying /home/abdelghafor/ros2_ws/src/build/robot_actions/build/lib/robot_actions/__init__.py -> /home/abdelghafor/ros2_ws/src/install/robot_actions/lib/python3.10/site-packages/robot_actions
+[0.818s] copying /home/abdelghafor/ros2_ws/src/build/robot_actions/build/lib/robot_actions/battery_charger.py -> /home/abdelghafor/ros2_ws/src/install/robot_actions/lib/python3.10/site-packages/robot_actions
+[0.818s] copying /home/abdelghafor/ros2_ws/src/build/robot_actions/build/lib/robot_actions/battery_client.py -> /home/abdelghafor/ros2_ws/src/install/robot_actions/lib/python3.10/site-packages/robot_actions
+[0.819s] byte-compiling /home/abdelghafor/ros2_ws/src/install/robot_actions/lib/python3.10/site-packages/robot_actions/__init__.py to __init__.cpython-310.pyc
+[0.819s] byte-compiling /home/abdelghafor/ros2_ws/src/install/robot_actions/lib/python3.10/site-packages/robot_actions/battery_charger.py to battery_charger.cpython-310.pyc
+[0.820s] byte-compiling /home/abdelghafor/ros2_ws/src/install/robot_actions/lib/python3.10/site-packages/robot_actions/battery_client.py to battery_client.cpython-310.pyc
+[0.821s] running install_data
+[0.821s] creating /home/abdelghafor/ros2_ws/src/install/robot_actions/share/ament_index
+[0.821s] creating /home/abdelghafor/ros2_ws/src/install/robot_actions/share/ament_index/resource_index
+[0.821s] creating /home/abdelghafor/ros2_ws/src/install/robot_actions/share/ament_index/resource_index/packages
+[0.821s] copying resource/robot_actions -> /home/abdelghafor/ros2_ws/src/install/robot_actions/share/ament_index/resource_index/packages
+[0.821s] copying package.xml -> /home/abdelghafor/ros2_ws/src/install/robot_actions/share/robot_actions
+[0.822s] running install_egg_info
+[0.823s] Copying ../build/robot_actions/robot_actions.egg-info to /home/abdelghafor/ros2_ws/src/install/robot_actions/lib/python3.10/site-packages/robot_actions-0.0.0-py3.10.egg-info
+[0.824s] running install_scripts
+[0.842s] Installing battery_charger script to /home/abdelghafor/ros2_ws/src/install/robot_actions/lib/robot_actions
+[0.842s] Installing battery_client script to /home/abdelghafor/ros2_ws/src/install/robot_actions/lib/robot_actions
+[0.843s] writing list of installed files to '/home/abdelghafor/ros2_ws/src/build/robot_actions/install.log'
+[0.857s] Invoked command in '/home/abdelghafor/ros2_ws/src/robot_actions' returned '0': AMENT_PREFIX_PATH=/home/abdelghafor/ros2_ws/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdelghafor/ros2_ws/src/install/custom_interfaces:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/abdelghafor/ros2_ws/src/build/robot_actions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdelghafor/ros2_ws/src/install/robot_actions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_actions build --build-base /home/abdelghafor/ros2_ws/src/build/robot_actions/build install --record /home/abdelghafor/ros2_ws/src/build/robot_actions/install.log --single-version-externally-managed install_data

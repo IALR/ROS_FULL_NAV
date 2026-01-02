@@ -1,0 +1,3 @@
+[console_scripts]
+temp_publisher = simple_params.temp_publisher:main
+

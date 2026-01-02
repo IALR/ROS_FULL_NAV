@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/simple_params/simple_params.egg-info
+writing ../build/simple_params/simple_params.egg-info/PKG-INFO
+writing dependency_links to ../build/simple_params/simple_params.egg-info/dependency_links.txt
+writing entry points to ../build/simple_params/simple_params.egg-info/entry_points.txt
+writing requirements to ../build/simple_params/simple_params.egg-info/requires.txt
+writing top-level names to ../build/simple_params/simple_params.egg-info/top_level.txt
+writing manifest file '../build/simple_params/simple_params.egg-info/SOURCES.txt'
+reading manifest file '../build/simple_params/simple_params.egg-info/SOURCES.txt'
+writing manifest file '../build/simple_params/simple_params.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/abdelghafor/ros2_ws/src/build/simple_params/build
+creating /home/abdelghafor/ros2_ws/src/build/simple_params/build/lib
+creating /home/abdelghafor/ros2_ws/src/build/simple_params/build/lib/simple_params
+copying simple_params/__init__.py -> /home/abdelghafor/ros2_ws/src/build/simple_params/build/lib/simple_params
+copying simple_params/temp_publisher.py -> /home/abdelghafor/ros2_ws/src/build/simple_params/build/lib/simple_params
+running install
+running install_lib
+creating /home/abdelghafor/ros2_ws/src/install/simple_params/lib/python3.10/site-packages/simple_params
+copying /home/abdelghafor/ros2_ws/src/build/simple_params/build/lib/simple_params/__init__.py -> /home/abdelghafor/ros2_ws/src/install/simple_params/lib/python3.10/site-packages/simple_params
+copying /home/abdelghafor/ros2_ws/src/build/simple_params/build/lib/simple_params/temp_publisher.py -> /home/abdelghafor/ros2_ws/src/install/simple_params/lib/python3.10/site-packages/simple_params
+byte-compiling /home/abdelghafor/ros2_ws/src/install/simple_params/lib/python3.10/site-packages/simple_params/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/abdelghafor/ros2_ws/src/install/simple_params/lib/python3.10/site-packages/simple_params/temp_publisher.py to temp_publisher.cpython-310.pyc
+running install_data
+creating /home/abdelghafor/ros2_ws/src/install/simple_params/share/ament_index
+creating /home/abdelghafor/ros2_ws/src/install/simple_params/share/ament_index/resource_index
+creating /home/abdelghafor/ros2_ws/src/install/simple_params/share/ament_index/resource_index/packages
+copying resource/simple_params -> /home/abdelghafor/ros2_ws/src/install/simple_params/share/ament_index/resource_index/packages
+copying package.xml -> /home/abdelghafor/ros2_ws/src/install/simple_params/share/simple_params
+running install_egg_info
+Copying ../build/simple_params/simple_params.egg-info to /home/abdelghafor/ros2_ws/src/install/simple_params/lib/python3.10/site-packages/simple_params-1.0.0-py3.10.egg-info
+running install_scripts
+Installing temp_publisher script to /home/abdelghafor/ros2_ws/src/install/simple_params/lib/simple_params
+writing list of installed files to '/home/abdelghafor/ros2_ws/src/build/simple_params/install.log'

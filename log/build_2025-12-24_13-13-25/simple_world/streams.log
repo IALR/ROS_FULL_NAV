@@ -1,0 +1,42 @@
+[0.523s] Invoking command in '/home/abdelghafor/ros2_ws/src/build/simple_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelghafor/ros2_ws/install/simple_params:/home/abdelghafor/ros2_ws/install/robot_actions:/home/abdelghafor/ros2_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake /home/abdelghafor/ros2_ws/src/simple_worlds -DCMAKE_INSTALL_PREFIX=/home/abdelghafor/ros2_ws/src/install/simple_world
+[0.605s] -- The C compiler identification is GNU 11.4.0
+[0.684s] -- The CXX compiler identification is GNU 11.4.0
+[0.694s] -- Detecting C compiler ABI info
+[0.802s] -- Detecting C compiler ABI info - done
+[0.807s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.807s] -- Detecting C compile features
+[0.807s] -- Detecting C compile features - done
+[0.810s] -- Detecting CXX compiler ABI info
+[0.934s] -- Detecting CXX compiler ABI info - done
+[0.939s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.939s] -- Detecting CXX compile features
+[0.940s] -- Detecting CXX compile features - done
+[0.944s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.112s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.284s] -- Configuring done
+[1.288s] -- Generating done
+[1.290s] -- Build files have been written to: /home/abdelghafor/ros2_ws/src/build/simple_world
+[1.297s] Invoked command in '/home/abdelghafor/ros2_ws/src/build/simple_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelghafor/ros2_ws/install/simple_params:/home/abdelghafor/ros2_ws/install/robot_actions:/home/abdelghafor/ros2_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake /home/abdelghafor/ros2_ws/src/simple_worlds -DCMAKE_INSTALL_PREFIX=/home/abdelghafor/ros2_ws/src/install/simple_world
+[1.299s] Invoking command in '/home/abdelghafor/ros2_ws/src/build/simple_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelghafor/ros2_ws/install/simple_params:/home/abdelghafor/ros2_ws/install/robot_actions:/home/abdelghafor/ros2_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/abdelghafor/ros2_ws/src/build/simple_world -- -j16 -l16
+[1.362s] Invoked command in '/home/abdelghafor/ros2_ws/src/build/simple_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelghafor/ros2_ws/install/simple_params:/home/abdelghafor/ros2_ws/install/robot_actions:/home/abdelghafor/ros2_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/abdelghafor/ros2_ws/src/build/simple_world -- -j16 -l16
+[1.367s] Invoking command in '/home/abdelghafor/ros2_ws/src/build/simple_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelghafor/ros2_ws/install/simple_params:/home/abdelghafor/ros2_ws/install/robot_actions:/home/abdelghafor/ros2_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/abdelghafor/ros2_ws/src/build/simple_world
+[1.376s] -- Install configuration: ""
+[1.376s] -- Installing: /home/abdelghafor/ros2_ws/src/install/simple_world/share/simple_world/worlds
+[1.377s] -- Installing: /home/abdelghafor/ros2_ws/src/install/simple_world/share/simple_world/worlds/robotic_chair_worlds.world
+[1.378s] -- Installing: /home/abdelghafor/ros2_ws/src/install/simple_world/share/simple_world/worlds/simple_world2.world
+[1.379s] -- Installing: /home/abdelghafor/ros2_ws/src/install/simple_world/share/ament_index/resource_index/package_run_dependencies/simple_world
+[1.379s] -- Installing: /home/abdelghafor/ros2_ws/src/install/simple_world/share/ament_index/resource_index/parent_prefix_path/simple_world
+[1.379s] -- Installing: /home/abdelghafor/ros2_ws/src/install/simple_world/share/simple_world/environment/ament_prefix_path.sh
+[1.380s] -- Installing: /home/abdelghafor/ros2_ws/src/install/simple_world/share/simple_world/environment/ament_prefix_path.dsv
+[1.380s] -- Installing: /home/abdelghafor/ros2_ws/src/install/simple_world/share/simple_world/environment/path.sh
+[1.381s] -- Installing: /home/abdelghafor/ros2_ws/src/install/simple_world/share/simple_world/environment/path.dsv
+[1.381s] -- Installing: /home/abdelghafor/ros2_ws/src/install/simple_world/share/simple_world/local_setup.bash
+[1.381s] -- Installing: /home/abdelghafor/ros2_ws/src/install/simple_world/share/simple_world/local_setup.sh
+[1.381s] -- Installing: /home/abdelghafor/ros2_ws/src/install/simple_world/share/simple_world/local_setup.zsh
+[1.381s] -- Installing: /home/abdelghafor/ros2_ws/src/install/simple_world/share/simple_world/local_setup.dsv
+[1.381s] -- Installing: /home/abdelghafor/ros2_ws/src/install/simple_world/share/simple_world/package.dsv
+[1.382s] -- Installing: /home/abdelghafor/ros2_ws/src/install/simple_world/share/ament_index/resource_index/packages/simple_world
+[1.382s] -- Installing: /home/abdelghafor/ros2_ws/src/install/simple_world/share/simple_world/cmake/simple_worldConfig.cmake
+[1.382s] -- Installing: /home/abdelghafor/ros2_ws/src/install/simple_world/share/simple_world/cmake/simple_worldConfig-version.cmake
+[1.382s] -- Installing: /home/abdelghafor/ros2_ws/src/install/simple_world/share/simple_world/package.xml
+[1.386s] Invoked command in '/home/abdelghafor/ros2_ws/src/build/simple_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelghafor/ros2_ws/install/simple_params:/home/abdelghafor/ros2_ws/install/robot_actions:/home/abdelghafor/ros2_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/abdelghafor/ros2_ws/src/build/simple_world

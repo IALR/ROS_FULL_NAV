@@ -1,0 +1,9 @@
+/home/abdelghafor/ros2_ws/src/build/robotic_chair_description/CMakeFiles/uninstall.dir
+/home/abdelghafor/ros2_ws/src/build/robotic_chair_description/CMakeFiles/robotic_chair_description_uninstall.dir
+/home/abdelghafor/ros2_ws/src/build/robotic_chair_description/CMakeFiles/test.dir
+/home/abdelghafor/ros2_ws/src/build/robotic_chair_description/CMakeFiles/edit_cache.dir
+/home/abdelghafor/ros2_ws/src/build/robotic_chair_description/CMakeFiles/rebuild_cache.dir
+/home/abdelghafor/ros2_ws/src/build/robotic_chair_description/CMakeFiles/list_install_components.dir
+/home/abdelghafor/ros2_ws/src/build/robotic_chair_description/CMakeFiles/install.dir
+/home/abdelghafor/ros2_ws/src/build/robotic_chair_description/CMakeFiles/install/local.dir
+/home/abdelghafor/ros2_ws/src/build/robotic_chair_description/CMakeFiles/install/strip.dir

@@ -1,0 +1,4 @@
+[console_scripts]
+battery_charger = robot_actions.battery_charger:main
+battery_client = robot_actions.battery_client:main
+

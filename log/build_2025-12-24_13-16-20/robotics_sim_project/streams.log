@@ -1,0 +1,33 @@
+[0.289s] Invoking command in '/home/abdelghafor/ros2_ws/src/build/robotics_sim_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelghafor/ros2_ws/src/install/simple_params:/home/abdelghafor/ros2_ws/src/install/robot_actions:/home/abdelghafor/ros2_ws/src/install/my_first_package:/home/abdelghafor/ros2_ws/install/simple_params:/home/abdelghafor/ros2_ws/install/robot_actions:/home/abdelghafor/ros2_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/abdelghafor/ros2_ws/src/build/robotics_sim_project -- -j16 -l16
+[0.563s] Invoked command in '/home/abdelghafor/ros2_ws/src/build/robotics_sim_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelghafor/ros2_ws/src/install/simple_params:/home/abdelghafor/ros2_ws/src/install/robot_actions:/home/abdelghafor/ros2_ws/src/install/my_first_package:/home/abdelghafor/ros2_ws/install/simple_params:/home/abdelghafor/ros2_ws/install/robot_actions:/home/abdelghafor/ros2_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/abdelghafor/ros2_ws/src/build/robotics_sim_project -- -j16 -l16
+[0.565s] Invoking command in '/home/abdelghafor/ros2_ws/src/build/robotics_sim_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdelghafor/ros2_ws/src/install/simple_params:/home/abdelghafor/ros2_ws/src/install/robot_actions:/home/abdelghafor/ros2_ws/src/install/my_first_package:/home/abdelghafor/ros2_ws/install/simple_params:/home/abdelghafor/ros2_ws/install/robot_actions:/home/abdelghafor/ros2_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/abdelghafor/ros2_ws/src/build/robotics_sim_project
+[0.586s] -- Install configuration: ""
+[0.588s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project//worlds
+[0.588s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project//launch
+[0.589s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project//launch/gazebo_simple_arm.launch.py
+[0.589s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project//launch/rviz_display.launch.py
+[0.590s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project//urdf
+[0.591s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project//urdf/common
+[0.591s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project//urdf/common/gazebo_materials.xacro
+[0.593s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project//urdf/common/materials.xacro
+[0.593s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project//urdf/common/properties.xacro
+[0.593s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project//urdf/common/inertias.xacro
+[0.594s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project//urdf/simple_arm.urdf.xacro
+[0.594s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project//urdf/simple_arm.urdf
+[0.594s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project//urdf/components
+[0.595s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project//meshes
+[0.595s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/ament_index/resource_index/package_run_dependencies/robotics_sim_project
+[0.595s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/ament_index/resource_index/parent_prefix_path/robotics_sim_project
+[0.595s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project/environment/ament_prefix_path.sh
+[0.595s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project/environment/ament_prefix_path.dsv
+[0.595s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project/environment/path.sh
+[0.596s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project/environment/path.dsv
+[0.596s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project/local_setup.bash
+[0.596s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project/local_setup.sh
+[0.596s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project/local_setup.zsh
+[0.596s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project/local_setup.dsv
+[0.596s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project/package.dsv
+[0.596s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/ament_index/resource_index/packages/robotics_sim_project
+[0.596s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project/cmake/robotics_sim_projectConfig.cmake
+[0.596s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project/cmake/robotics_sim_projectConfig-version.cmake
+[0.596s] -- Up-to-date: /home/abdelghafor/ros2_ws/src/install/robotics_sim_project/share/robotics_sim_project/package.xml
