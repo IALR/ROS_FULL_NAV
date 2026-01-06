@@ -107,9 +107,8 @@
     </model>
 
     <!-- ============================ -->
-    <!-- ROBOT SPAWN (CENTER)        -->
+    <!-- ROBOT SPAWN (CENTER AT 0,0) -->
     <!-- ============================ -->
-    <!-- Visual-only spawn marker so it doesn't collide with the robot -->
     <model name='robot_spawn_marker'>
       <static>1</static>
       <pose>0 0 0.05 0 0 0</pose>
@@ -129,21 +128,19 @@
       </link>
     </model>
 
-    <!-- When spawning your own robot, use pose: 0 0 0.1 0 0 0 -->
-
     <!-- ============================ -->
-    <!-- FOUR COLORED ROOMS (6x6m)   -->
-    <!-- Layout:                      -->
-    <!--   Room1 (RED)   Room2 (GREEN)-->
-    <!--   Room3 (BLUE)  Room4 (YELLOW)-->
-    <!-- Center (0,0) kept empty      -->
-    <!-- ============================ -->
+    <!-- FOUR COLORED ROOMS           -->
+    <!-- Room positions (map coordinates):
+         a) RED Room:      x=-6.0, y=6.0   (top-left)
+         b) GREEN Room:    x=6.0,  y=6.0   (top-right)
+         c) BLUE Room:     x=-6.0, y=-6.0  (bottom-left)
+         d) YELLOW Room:   x=6.0,  y=-6.0  (bottom-right)
+    ========================================= -->
 
-    <!-- Room 1 - RED (top-left) -->
+    <!-- Room 1 - RED (a) at x=-6, y=6 -->
     <model name='room_red'>
       <static>1</static>
       <pose>-6 6 1.4 0 0 0</pose>
-      <!-- Walls (south wall has door gap facing center) -->
       <link name='north_wall'>
         <collision name='collision'>
           <geometry><box><size>6 0.2 2.8</size></box></geometry>
@@ -211,7 +208,7 @@
       </link>
     </model>
 
-    <!-- Room 2 - GREEN (top-right) -->
+    <!-- Room 2 - GREEN (b) at x=6, y=6 -->
     <model name='room_green'>
       <static>1</static>
       <pose>6 6 1.4 0 0 0</pose>
@@ -282,7 +279,7 @@
       </link>
     </model>
 
-    <!-- Room 3 - BLUE (bottom-left) -->
+    <!-- Room 3 - BLUE (c) at x=-6, y=-6 -->
     <model name='room_blue'>
       <static>1</static>
       <pose>-6 -6 1.4 0 0 0</pose>
@@ -353,7 +350,7 @@
       </link>
     </model>
 
-    <!-- Room 4 - YELLOW (bottom-right) -->
+    <!-- Room 4 - YELLOW (d) at x=6, y=-6 -->
     <model name='room_yellow'>
       <static>1</static>
       <pose>6 -6 1.4 0 0 0</pose>
@@ -422,78 +419,6 @@
         </visual>
         <pose>3 0 0 0 0 0</pose>
       </link>
-    </model>
-
-    <!-- ============================ -->
-    <!-- WHITE LINES AT DOOR ENTRANCES -->
-    <!-- ============================ -->
-    <model name='door_markers'>
-      <static>1</static>
-
-      <!-- RED room door (top-left) at world (-6, 3) -->
-      <link name='red_door_line'>
-        <visual name='visual'>
-          <geometry>
-            <box>
-              <size>2.0 0.15 0.01</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 1 1 1</ambient>
-            <diffuse>1 1 1 1</diffuse>
-          </material>
-        </visual>
-        <pose>-6 3 0.055 0 0 0</pose>
-      </link>
-
-      <!-- GREEN room door (top-right) at world (6, 3) -->
-      <link name='green_door_line'>
-        <visual name='visual'>
-          <geometry>
-            <box>
-              <size>2.0 0.15 0.01</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 1 1 1</ambient>
-            <diffuse>1 1 1 1</diffuse>
-          </material>
-        </visual>
-        <pose>6 3 0.055 0 0 0</pose>
-      </link>
-
-      <!-- BLUE room door (bottom-left) at world (-6, -3) -->
-      <link name='blue_door_line'>
-        <visual name='visual'>
-          <geometry>
-            <box>
-              <size>2.0 0.15 0.01</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 1 1 1</ambient>
-            <diffuse>1 1 1 1</diffuse>
-          </material>
-        </visual>
-        <pose>-6 -3 0.055 0 0 0</pose>
-      </link>
-
-      <!-- YELLOW room door (bottom-right) at world (6, -3) -->
-      <link name='yellow_door_line'>
-        <visual name='visual'>
-          <geometry>
-            <box>
-              <size>2.0 0.15 0.01</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 1 1 1</ambient>
-            <diffuse>1 1 1 1</diffuse>
-          </material>
-        </visual>
-        <pose>6 -3 0.055 0 0 0</pose>
-      </link>
-
     </model>
 
     <!-- ============================ -->
