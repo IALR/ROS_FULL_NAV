@@ -388,7 +388,9 @@ Contributions welcome! Areas:
 
 - **Ilyass Arro**
 - **Ayman Adriouch**
-- **Abdelgafor hamdaiou**
+- **MVE NTOUGOU Jean Jules**
+- **Abdelgafor ELhamdaiou**
+
 
 **Supervised by**: Nimal Elamrani
 **Academic Year**: 2025-2026
